@@ -1,0 +1,76 @@
+## CSS Cacading Style Sheet
+
+ 	CSS são conjuntos de regras de formatação que alterão a aparencia
+	de um conteúdo HTML. Sua aplicação possui um estilo em cascata com 
+	o efeito de ordem e prioridade partindo da meninor prioridade para
+	a maior prioridade. (!important = Maior prioridade)
+	
+	Modos de aplicação de acordo com a prioridade:
+
+	(2) * Estilo Externo: Arquivo importado <link href="style.css">
+	(1) * Estilo Incorporado: Definido na Head da página HTML usando tag <style>	
+ 	(0) * Estilo Inline: Define os atributos css dentro do elemento hmtl <p style=""></p>
+
+	Explicação: As prioridade do CSS partem do nível 0 que e a aplicação do css na propria tag,
+		    depois a prioridade nível 1 usando uma classe css declarada na tag <style></style>
+ 		    e por último o nivel 2 onde temos um arquivo css com declarações de classes css.
+
+
+# Sintaxe CSS
+
+	seletor {
+		declarações: valor;
+	}
+
+	* seletor: atributo/classe css como (boby, p, .classe)
+	* declarações: são as formatações do elemento como (with, height, padding)
+	* valor: são os valores atribuidos aos elementos css (100px, 1rem, #fff)
+
+
+# Classes ou ID
+
+	* ID São identificadores únicos para a página declarado com o "#"
+	* Classe podem sem aplicados em diversas areas do site desde que o atribudo tenha a declaração
+	  da classe que são definidas por ".nome_da_classe"
+
+Exemplos
+
+	Definindo a cor de fundo da <body> da página html 
+	
+	Css inline: <body style="background-color: #gray">
+	Css Externo:  body {background-color: #gray;}
+
+
+	# Inserindo imagem: "background-image: url(asstes/image.jpg);"
+	# Posição: "position: top|fixed|bottom|right|left|relative;"
+	# Ponto de âncoragem: "float:left|right;"
+
+	# Fontes: "font-family:arial;" 
+	# Cor da Fonte: "color: #111;"
+	# Tamanho da Fonte: "font-size: 12px;"
+	# Fonte em Negrito: "font-weight: bold;"
+	# Espaçamento entre linhas: "line-height: 1.5;"
+	# Distancia entre fontes: "letter-spaccing: 1.5;"
+
+	# Alturas: "width: 10px;"
+	# Largura: "height 10px:"
+	
+	# Margin externa: "margin: 10px;"
+	# Margin interna: "padding: 10px;"
+
+
+# Aplicando margins (Sentido horário)
+	
+	Exemplo: margin: 20px(top) 5px(right) 10px(bottom) 0px(left);
+
+
+# Para eliminar todos as margins do browser
+	
+	* { margin: 0px; padding: 0px;}	
+	
+
+
+
+
+	
+  	 
